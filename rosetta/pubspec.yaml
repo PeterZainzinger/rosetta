@@ -12,6 +12,8 @@ homepage: https://github.com/TeamWanari/rosetta
 
 environment:
   sdk: ">=2.10.0 <3.0.0"
+dependencies:
+  intl: ">=0.17.0"
 
 #
 # dev_dependencies:

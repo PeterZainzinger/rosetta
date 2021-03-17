@@ -23,8 +23,6 @@ void checkTranslationKeyMap(List<Translation> translations) {
 
   int requiredLength = translations.first.translations.length;
 
-  translations.where((trans) => trans.translations.length < requiredLength);
-
   List<String> invalidKeys = keysOf(translations
       .where((translation) => translation.translations.length < requiredLength)
       .toList());
