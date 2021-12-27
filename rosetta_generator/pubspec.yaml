@@ -18,8 +18,7 @@ dependencies:
   recase: ">2.0.0 <3.1.0"
   path: ">=1.6.0"
   glob: ">=2.0.0"
-  rosetta:
-    path: ../rosetta/
+  rosetta: any
 
 dev_dependencies:
   build_runner: ">=2.0.0"
